@@ -2,7 +2,29 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 #cabecalho{
     margin: 0px;
+    padding: 0px;
     background-color: #ff0000;
+    height: 85px;
+}
+
+#cabecalho > img {
+    display: inline-block;
+    margin: 0 0 100px 100px;
+    padding: 0px;
+}
+
+#orientacoes{
+    margin: auto;
+    width: 100%;
+    display: inline-block;;
+    text-align: center;
+}
+
+
+
+.campo_obrigatorio{
+    color:#ff0000;
 }
