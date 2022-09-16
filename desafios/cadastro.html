@@ -9,19 +9,22 @@
 </head>
 <body>
     <header id="cabecalho">
-        <!--Espaço para logo e cor padrão-->
-        <img src="./logo.png" alt="logo lojas americanas" height="150">
+        <div>
+            <img src="./logo.png" alt="logo lojas americanas" height="150">
+
+        </div>
+        
     </header>
-    <main>
+    <main id="container">
         <div id="orientacoes">
             <h1>criar seu cadastro</h1>
-            <p style="text-align: center;">veja seus pedidos de forma fácil, compre mais rápido e tenha uma <br> experiência personalizada :)<br><br>
+            <p >veja seus pedidos de forma fácil, compre mais rápido e tenha uma <br> experiência personalizada :)<br><br>
             <span style="font-size: small;"><span class="campo_obrigatorio">*</span> campos obrigatórios</span></p>
             <section>
                 <div id="formulario">
                     <form>
                             <label><span class="campo_obrigatorio">*</span> nome completo</label> <br>
-                            <input type="text" name="nome" width="500">
+                            <input type="text" name="nome" width="500" class="altura_campo">
                             <br><br>
                             <label><span class="campo_obrigatorio">*</span> gênero</label> <br>
                             <input type="radio" name="genero" value="f">
@@ -32,30 +35,30 @@
                             <label>não informar</label> <br><br>
 
                             <label><span class="campo_obrigatorio">*</span> data de nascimento</label> <br>
-                            <input type="text" name="dataNascimento" placeholder="__/__/___"> <br><br>
+                            <input type="text" name="dataNascimento" placeholder="__/__/___" class="altura_campo" style="width: 100px;"> <br><br>
 
                             <label><span class="campo_obrigatorio">*</span> CPF</label> <br>
-                            <input type="text" name="cpf" placeholder="___.___.___-__"> <br><br>
+                            <input type="text" name="cpf" placeholder="___.___.___-__" class="altura_campo" style="width: 100px;"> <br><br>
 
                             <label><span class="campo_obrigatorio">*</span> telefone</label> <br>
-                            <input type="tel" name="telefone" placeholder="(__)_____-____"> <br><br>
+                            <input type="tel" name="telefone" placeholder="(__)_____-____" class="altura_campo" style="width: 100px;"> <br><br>
 
                             <input type="checkbox" name="notificacoes" id="notificacaoWhatsapp">
                             <label > receber notificações por whatsapp</label> <br><br>
 
                             <label> <span class="campo_obrigatorio">*</span> e-mail</label><br>
-                            <input type="email" name="email" id=""> <br><br>
+                            <input type="email" name="email" class="altura_campo"> <br><br>
 
                             <input type="checkbox" name="emailPromocional" id="notificacaoEmail">
                             <label >receber e-mails promocionais</label> <br><br>
 
-                            <label><span class="campo_obrigatorio">*</span> senha</label> <br>
-                            <input type="password" name="senha" id="senha"> <br><br>
+                            <label><span class="campo_obrigatorio" >*</span> senha</label> <br>
+                            <input type="password" name="senha" id="senha" class="altura_campo" id="senha"> <br><br>
 
                             <input type="checkbox" name="notificacoesParceiros" id="notificacoesParceiros">
                             <label>compartilhar meus dados com parceiros para ter <br> conteúdos personalizados</label> <br><br>
 
-                            <input type="submit" value="criar seu cadastro">
+                            <input type="submit" value="criar seu cadastro" class="altura_campo" id="botao">
                     </form>
                 </div>
 
